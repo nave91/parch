@@ -6,6 +6,11 @@
 ##      value pairs are sorted descending by the
 ##      values).
 
+def dictostr(dic):
+    string = ""
+    for key in sorted(dic.keys(),reverse=True):
+        string = string + str(key) + "-" + str(dic[key])+","
+    return string
+
 dic={1:'one',2:'two',3:'three'}
-for key in sorted(dic.keys(),reverse=True):
-    print key,dic[key]
+print dictostr(dic)

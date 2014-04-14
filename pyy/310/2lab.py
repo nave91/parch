@@ -42,3 +42,5 @@ def retnitems(list,n):
 list = [i for i in range(30)]
 n = 3
 print retnitems(list,n)
+
+##

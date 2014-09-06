@@ -1,0 +1,5 @@
+#Example of array
+
+from array import array
+
+iarr = array('i')

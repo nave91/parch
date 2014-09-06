@@ -1,0 +1,5 @@
+class E:
+  def somefunc(i):
+    return i
+
+e = E()

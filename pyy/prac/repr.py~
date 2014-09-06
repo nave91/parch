@@ -1,5 +1,0 @@
-
-z = 2.456
-
-print str(z), "str(z)"
-print repr(z), "repr(z)"

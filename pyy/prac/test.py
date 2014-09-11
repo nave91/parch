@@ -1,0 +1,2 @@
+True = "wow"
+print True

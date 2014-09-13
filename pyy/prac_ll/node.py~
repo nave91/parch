@@ -1,0 +1,17 @@
+class Nodelist:
+    def __init__(self,data,next):
+        self.data = data
+        self.next = next
+
+    def getdata(self):
+        return self.data
+
+    def getnext(self):
+        return self.next
+    
+    def setdata(self,data):
+        self.data = data
+
+    def setnext(self,next):
+        self.next = next
+

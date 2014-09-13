@@ -1,2 +1,1 @@
-True = "wow"
-print True
+m = 0 if True else 1

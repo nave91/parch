@@ -1,0 +1,5 @@
+Given a large block of text like the description of Bill Gates on Wikipedia (http://en.wikipedia.org/wiki/Bill_Gates) and a list of named entities (~100k names of companies and organizations), write a function that will identify all the named entities found in the text.  
+
+We currently have about 100k entities and blocks of text will typically range from 50-500 words.  Please optimize your function for this type of use case.
+
+In the above Bill Gates example, I’d expect the function to return organization names like Microsoft Corporation, Microsoft, Harvard University, Bill & Melinda Gates Foundation, assuming that these names are in the list.

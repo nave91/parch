@@ -26,4 +26,4 @@ def consec(s):
     
     return m,char
 
-print consec('abcddde')
+print consec('abcde')

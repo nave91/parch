@@ -9,7 +9,7 @@ print sum(10,0,z=9)
 
 lst = []
 def s(*args,**kwargs):
-  global lst
+  #global lst
   lst = args[0]
   print lst
   print kwargs

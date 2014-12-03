@@ -19,6 +19,7 @@ class A:
 
 #A() < A()
 print "cannot do A() < A()"
-A() > A()
+#A() > A()
 a = A()
+a.wow = 10
 print a.wow 
